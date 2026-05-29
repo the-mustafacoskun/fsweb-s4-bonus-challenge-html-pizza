@@ -1,83 +1,125 @@
-# Pizza Sipariş Formu - Tasarımdan Koda I
+# Pizza Order Form - From Design to Code
 
-Bu proje, Workintech Full Stack Web Geliştirme eğitimindeki S8 sunuma hazırlık olarak, HTML ve CSS becerilerini geliştirmeniz için tasarlanmıştır. Bu projede, sadece HTML ve CSS kullanarak verilen tasarımı aynen uygulamanız beklenmektedir. Figma tasarım dosyasını referans alarak, sayfanızın görsel yapısını oluşturun.
+A modern, responsive pizza ordering web application built with semantic HTML and CSS. This project demonstrates professional web design implementation from Figma mockups to fully functional static HTML/CSS code.
 
-**Amaç:**
+## 🎯 Project Overview
 
-- Verilen Figma tasarımına birebir uyan, mobil ve desktop uyumlu statik bir HTML yapısı oluşturmak.
-- CSS kullanarak formu ve sayfayı şekillendirmek.
-- JavaScript kullanmadan temel bir form yapısı oluşturmak.
+This project is part of the Workintech Full Stack Web Development curriculum, designed to develop HTML and CSS skills while maintaining design accuracy across mobile and desktop viewports. Build a pixel-perfect implementation of the provided Figma design using semantic HTML and clean CSS.
 
-**Gereksinimler:**
+## 📋 Objectives
 
-- Visual Studio Code
-- Node.js ve npm (Node Package Manager) bilgisayarınızda kurulu olmalıdır. Eğer kurulu değilse, [Node.js resmi web sitesinden](https://nodejs.org) LTS versiyonunu indirebilirsiniz.
+- Create a responsive static HTML structure that precisely matches the Figma design
+- Implement professional CSS styling with proper organization and naming conventions
+- Ensure semantic HTML markup for better accessibility and SEO
+- Achieve pixel-perfect design implementation across all screen sizes
+- Develop clean, maintainable code following web standards
 
-**Başlangıç:**
+## 🛠️ Prerequisites
 
-1. **Create Repo From Template & Clone:**
+- **Visual Studio Code** - Recommended code editor
+- **Node.js & npm** - Required for development server (LTS version recommended)
+  - [Download Node.js](https://nodejs.org)
 
-   - Sağ üstteki yeşil "Use this template" butonu ile, bir kopya oluşturun. işlemi tamamlandıktan sonra, kendi GitHub hesabınızda yer alan depo bağlantısını kopyalayın.
-   - VS Code'u açın ve terminali başlatın. Aşağıdaki komutu kullanarak depoyu bilgisayarınıza klonlayın:
-     ```sh
-     git clone <Yeni-Repo-URL'niz>
-     ```
-   - Örnek:
-     ```sh
-     git clone https://github.com/sizin-hesabiniz/fsweb-s5-bonus-challenge-html-pizza
-     ```
+## 🚀 Getting Started
 
-2. **VS Code'da Geliştirmeye Başlamak:**
-   - VS Code'u açın ve `File -> Open Folder` seçeneğiyle projeyi açın.
+### 1. Clone the Repository
 
-- Terminalde aşağıdaki komutları sırasıyla çalıştırarak proje bağımlılıklarını yükleyin ve projeyi başlatın:
-  ```sh
-  npm install
-  npm run dev
-  ```
+```bash
+# Clone your repository
+git clone <your-repo-url>
 
-3. **Geliştirmeye Başlayın** 🤓 👩‍💻 🧑‍💻
+# Navigate to project directory
+cd fsweb-s4-bonus-challenge-html-pizza
+```
 
-#### Proje Yapısı
+### 2. Setup Project
 
-- `index.html`: Ana HTML dosyanız.
-- `style.css`: Tüm stillerinizin bulunduğu CSS dosyası.
-- `assets/`: Projede kullanacağınız tüm resim ve diğer statik dosyalar sizin için önden dışarı aktarıldı.
-- `index.html` dosyasını düzenleyerek HTML yapısını oluşturun.
-- Figma tasarımını ([S6 Pizza v2.1 Mobil](https://www.figma.com/design/B6rGWNjWqVyvuB9htLyIMR/S6-Challange-v2.1?node-id=0-1&t=FwsCbqkh8NWchoPX-1))
--  referans alarak CSS (`style.css`) ile sayfayı ve formu şekillendirin.
+```bash
+# Install dependencies
+npm install
 
-#### Renk Kodları
+# Start development server
+npm run dev
+```
 
-1. Sarı #FDC913
-2. Açık Gri: #5F5F5F
-3. Koyu Gri #292929
-4. Kırmızı #CE2829
-5. Bej: #FAF7F2
+The development server will open your project in the browser with live reload enabled.
 
-#### Tasarımda Kullanılan Fontlar
+### 3. Start Development
 
-Logo proje klasöründe SVG olarak yüklü
+Open `index.html` in VS Code and begin implementing the design. Refer to the Figma mockup for guidance on layout, spacing, and styling.
 
-- [Roboto Condensed](https://fonts.google.com/specimen/Roboto+Condensed)
-- [Barlow](https://fonts.google.com/specimen/Barlow)
-- [Quattrocento](https://fonts.google.com/specimen/Quattrocento)
-- [Satisfy](https://fonts.google.com/specimen/Satisfy)
+## 📁 Project Structure
 
-**Önemli Notlar:**
+```
+.
+├── index.html          # Main HTML file - implement the structure here
+├── style.css          # All styling - organize with CSS custom properties
+├── public/
+│   └── assets/        # Images, icons, and static resources
+├── package.json       # Project dependencies and scripts
+└── README.md          # This file
+```
 
-- Bu projede JavaScript kullanmayacaksınız. Form işlevsel olmayacak, sadece statik olarak geliştirilecek.
-- Figma tasarımına sadık kalarak mobil ve masaüstü ekranlarda, düzgün dengeli bir görünüm sağlamayı hedefleyin.
-- HTML yapınızın anlamsal (semantic) olmasına özen gösterin.
-- CSS'te class isimlendirmesi ve kod düzenine dikkat edin.
+## 🎨 Design System
 
-**Kaynaklar:**
+### Color Palette
 
-- **Figma Tasarımı:** ([S6 Pizza v2.1 Mobil](https://www.figma.com/design/B6rGWNjWqVyvuB9htLyIMR/S6-Challange-v2.1?node-id=0-1&t=FwsCbqkh8NWchoPX-1))
-- **CSS içerisinde değişken tanımlayıp, yeniden kullanabilmek:** [CSS Custom Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
+| Color | Hex Code |
+|-------|----------|
+| Yellow | `#FDC913` |
+| Light Gray | `#5F5F5F` |
+| Dark Gray | `#292929` |
+| Red | `#CE2829` |
+| Beige | `#FAF7F2` |
 
-## Sorularınız mı Var?
+### Typography
 
-Eğer herhangi bir sorunla karşılaşırsanız, lütfen eğitmeninize başvurun.
+The design uses the following Google Fonts:
 
-İyi eğlenceler ve kodlamalar! 🍕
+- **[Roboto Condensed](https://fonts.google.com/specimen/Roboto+Condensed)** - Headlines (400, 700)
+- **[Barlow](https://fonts.google.com/specimen/Barlow)** - Body text (400, 500, 700)
+- **[Quattrocento](https://fonts.google.com/specimen/Quattrocento)** - Accent text (400, 700)
+- **[Satisfy](https://fonts.google.com/specimen/Satisfy)** - Logo/branding
+
+## 📐 Design Reference
+
+- **Figma Design:** [S6 Pizza v2.1 Mobile](https://www.figma.com/design/B6rGWNjWqVyvuB9htLyIMR/S6-Challange-v2.1?node-id=0-1&t=FwsCbqkh8NWchoPX-1)
+
+## ✅ Best Practices & Requirements
+
+- ✓ Use semantic HTML elements (`<header>`, `<nav>`, `<main>`, `<footer>`, etc.)
+- ✓ Implement responsive design that works on mobile and desktop
+- ✓ Follow consistent naming conventions for CSS classes (BEM recommended)
+- ✓ Use CSS custom properties for colors and spacing values
+- ✓ Keep CSS organized and well-commented
+- ✓ No JavaScript - this is a static design implementation
+- ✓ Ensure pixel-perfect accuracy with Figma design
+- ✓ Optimize images and assets for web
+
+## 📚 Useful Resources
+
+- **[MDN Web Docs - Semantic HTML](https://developer.mozilla.org/en-US/docs/Glossary/Semantics)**
+- **[CSS Custom Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/--*)**
+- **[Responsive Design Basics](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)**
+- **[Google Fonts](https://fonts.google.com/)**
+
+## 🔧 Available Scripts
+
+```bash
+# Start development server
+npm run dev
+
+# Build for production
+npm build
+
+# Preview production build
+npm preview
+```
+
+## 💬 Questions or Issues?
+
+If you encounter any problems or need clarification, please reach out to your instructor or course support team.
+
+---
+
+**Happy coding and enjoy building your pizza app!** 🍕✨
